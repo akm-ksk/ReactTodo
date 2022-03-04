@@ -9,7 +9,6 @@ type Props = {
 };
 
 export const EndList: VFC<Props> = memo((props) => {
-  console.log("End");
   const { todoList, setTodoList, compTodoList, setCompTodoList } = props;
 
   // 未完了ボタン

@@ -9,7 +9,6 @@ type Props = {
 };
 
 export const TodoList: VFC<Props> = memo((props) => {
-  console.log("todo");
   const { todoList, setTodoList, compTodoList, setCompTodoList } = props;
 
   // 完了ボタン

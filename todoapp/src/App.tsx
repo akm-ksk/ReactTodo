@@ -8,8 +8,6 @@ export const App: FC = () => {
   const [todoList, setTodoList] = useState<string[]>([]);
   const [compTodoList, setCompTodoList] = useState<string[]>([]);
 
-  console.log("App");
-
   return (
     <div>
       <h1>React Typescript Todo List</h1>

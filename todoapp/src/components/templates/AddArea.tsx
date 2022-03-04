@@ -9,7 +9,6 @@ type Props = {
 };
 
 export const AddArea: VFC<Props> = memo((props) => {
-  console.log("Add");
   const { todoList, setTodoList } = props;
 
   const [addText, setAddText] = useState<string>("");
@@ -22,7 +21,6 @@ export const AddArea: VFC<Props> = memo((props) => {
       const newTodoList: string[] = [...todoList];
       newTodoList.push(addText);
       setTodoList(newTodoList);
-      console.log(addText);
       setAddText("");
     }
   };
